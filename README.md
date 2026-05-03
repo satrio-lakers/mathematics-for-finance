@@ -19,6 +19,9 @@ Python implementations.
 - No-arbitrage condition checker (Proposition 1.1)
 - Portfolio value computation
 - Currency arbitrage detection — graph traversal approach
+- Expected return calculation — E(K)
+- Standard deviation (risk) calculation — σ
+- Risk-return tradeoff analysis
 
 ### Key Findings
 - No-arbitrage condition: Sd < A(1) < Su
@@ -33,6 +36,10 @@ Python implementations.
 - Checks all 6 possible 3-currency paths automatically
 - Arbitrage found: USD→GBP→EUR→USD (+0.59% profit)
 - Confirms: if one direction profits, opposite direction always loses
+- Exercise 1.4 — Risk and return for 50-50 portfolio
+  - Expected return: 12.5%
+  - Standard deviation: 10%
+  - Return range: 2.5% to 22.5%
 
 ## Tech Stack
 - Python 3
